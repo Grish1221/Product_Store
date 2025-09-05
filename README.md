@@ -33,20 +33,24 @@ Built with MongoDB, Express, React, and Node.js.
     git clone https://github.com/Grish1221/Product_Store
     cd mern-product-app
 2. Install backend dependencies
+   ```sh
     cd backend
     npm install
-3. Install frontend dependencies
+4. Install frontend dependencies
+   ```sh
     cd ../frontend
     npm install
-4. Set up MongoDB
+6. Set up MongoDB
     For local: Make sure MongoDB is running on your machine.
     For Atlas: Update backend/config/db.js with your connection string.
-5. Run the backend
+7. Run the backend
+   ```sh
     cd ../backend
     npm run dev
-6. Run the frontend
+9. Run the frontend
+    ```sh
     cd ../frontend
     npm run dev
-7. Visit the app:
+11. Visit the app:
     Frontend: http://localhost:5173
     Backend API: http://localhost:5000/api/products
